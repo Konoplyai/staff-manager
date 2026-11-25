@@ -1,0 +1,69 @@
+{
+  "exportedAt": "2026-11-20 10:15:00",
+  "departments": [
+    {
+      "name": "Відділ аналітики даних",
+      "location": "Корпус Б, к. 402",
+      "phone": "+380542123407"
+    },
+    {
+      "name": "Відділ розробки ПЗ",
+      "location": "Корпус Б, к. 310-312",
+      "phone": "+380542123403"
+    }
+  ],
+  "employees": [
+    {
+      "lastName": "Гордієнко",
+      "firstName": "Олег",
+      "middleName": "Вікторович",
+      "position": "Керівник відділу аналітики",
+      "salary": 64000.00,
+      "bonus": 0,
+      "hireDate": "2026-11-02",
+      "email": "o.hordiienko@company.ua",
+      "phone": "+380501112231",
+      "department": "Відділ аналітики даних",
+      "managerEmail": "o.kovalchuk@company.ua"
+    },
+    {
+      "lastName": "Яременко",
+      "firstName": "Дарина",
+      "middleName": "Олегівна",
+      "position": "Аналітик даних",
+      "salary": 42000.00,
+      "bonus": 0,
+      "hireDate": "2026-11-09",
+      "email": "d.yaremenko@company.ua",
+      "phone": "+380501112232",
+      "department": "Відділ аналітики даних",
+      "managerEmail": "o.hordiienko@company.ua"
+    },
+    {
+      "lastName": "Ігнатенко",
+      "firstName": "Євген",
+      "middleName": "Сергійович",
+      "position": "Data-інженер",
+      "salary": 47500.00,
+      "bonus": 0,
+      "hireDate": "2026-11-16",
+      "email": "y.ihnatenko@company.ua",
+      "phone": "+380501112233",
+      "department": "Відділ аналітики даних",
+      "managerEmail": "o.hordiienko@company.ua"
+    },
+    {
+      "lastName": "Ткачук",
+      "firstName": "Максим",
+      "middleName": "Ігорович",
+      "position": "Middle Java-розробник",
+      "salary": 58000.00,
+      "bonus": 5400.00,
+      "hireDate": "2020-03-09",
+      "email": "m.tkachuk@company.ua",
+      "phone": "+380501112210",
+      "department": "Відділ розробки ПЗ",
+      "managerEmail": "a.kovalenko@company.ua"
+    }
+  ]
+}

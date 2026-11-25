@@ -1,0 +1,38 @@
+{
+  "exportedAt": "2026-11-21 09:00:00",
+  "departments": [
+    {
+      "name": "",
+      "location": "Корпус Г",
+      "phone": "12345"
+    }
+  ],
+  "employees": [
+    {
+      "lastName": "Петров1",
+      "firstName": "Іван",
+      "middleName": null,
+      "position": "Менеджер",
+      "salary": -15000,
+      "bonus": 0,
+      "hireDate": "2030-01-01",
+      "email": "petrov.company.ua",
+      "phone": null,
+      "department": "Відділ продажів",
+      "managerEmail": null
+    },
+    {
+      "lastName": "Савчук",
+      "firstName": "Олена",
+      "middleName": "Петрівна",
+      "position": "",
+      "salary": 28000,
+      "bonus": 0,
+      "hireDate": "2025-05-12",
+      "email": "o.savchuk@company.ua",
+      "phone": "+380501119999",
+      "department": "Відділ продажів",
+      "managerEmail": null
+    }
+  ]
+}
