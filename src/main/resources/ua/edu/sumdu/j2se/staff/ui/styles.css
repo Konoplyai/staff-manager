@@ -1,0 +1,202 @@
+/* Оформлення застосунку "Облік працівників підприємства" */
+
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+    -fx-base: #eef1f5;
+    -fx-background-color: #f4f6f9;
+    -fx-accent: #2b6cb0;
+    -fx-focus-color: #2b6cb0;
+    -fx-faint-focus-color: #2b6cb022;
+}
+
+/* шапка головного вікна */
+.app-header {
+    -fx-background-color: linear-gradient(to right, #1f3b63, #2b6cb0);
+    -fx-padding: 12 18 12 18;
+}
+.app-title {
+    -fx-text-fill: white;
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+}
+.app-connection {
+    -fx-text-fill: #d6e4f5;
+    -fx-font-size: 12px;
+}
+
+/* вкладки */
+.tab-pane > .tab-header-area {
+    -fx-padding: 6 10 0 10;
+}
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: #f4f6f9;
+}
+.tab {
+    -fx-background-color: #e2e8f0;
+    -fx-background-radius: 6 6 0 0;
+    -fx-padding: 5 16 5 16;
+}
+.tab:selected {
+    -fx-background-color: white;
+}
+.tab .tab-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #334155;
+}
+.tab:selected .tab-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3b63;
+}
+.tab-pane > .tab-content-area {
+    -fx-background-color: white;
+}
+
+/* кнопки */
+.button {
+    -fx-background-radius: 5;
+    -fx-padding: 6 14 6 14;
+    -fx-cursor: hand;
+}
+.button.primary {
+    -fx-base: #2b6cb0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.button.danger {
+    -fx-base: #c53030;
+    -fx-text-fill: white;
+}
+
+/* панель пошуку */
+.toolbar-panel {
+    -fx-background-color: #f1f5fb;
+    -fx-background-radius: 8;
+    -fx-border-color: #d5deea;
+    -fx-border-radius: 8;
+    -fx-padding: 10 12 10 12;
+}
+
+/* таблиці */
+.table-view {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #d5deea;
+}
+.table-view .column-header {
+    -fx-background-color: #e8eef6;
+}
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3b63;
+}
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+.table-row-cell:even {
+    -fx-background-color: white;
+}
+.table-row-cell:selected {
+    -fx-background-color: #2b6cb0;
+}
+.table-row-cell:selected .text {
+    -fx-fill: white;
+}
+.money-column {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+/* картки на вкладці премій */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #d5deea;
+    -fx-border-radius: 8;
+    -fx-padding: 14;
+    -fx-effect: dropshadow(gaussian, rgba(31, 59, 99, 0.10), 8, 0, 0, 2);
+}
+.card-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3b63;
+}
+.big-value {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2b6cb0;
+}
+.value-label {
+    -fx-font-weight: bold;
+}
+.preview-label {
+    -fx-text-fill: #475569;
+    -fx-font-style: italic;
+}
+.section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3b63;
+}
+.count-label {
+    -fx-text-fill: #475569;
+}
+.hint-label {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}
+.error-label {
+    -fx-text-fill: #c53030;
+}
+
+/* діаграма */
+.chart-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3b63;
+}
+.default-color0.chart-bar {
+    -fx-bar-fill: #93b4dc;
+}
+.chart-bar.selected-bar {
+    -fx-bar-fill: #2b6cb0;
+}
+.chart-plot-background {
+    -fx-background-color: white;
+}
+
+/* рядок стану */
+.status-bar {
+    -fx-background-color: #e8eef6;
+    -fx-border-color: #d5deea transparent transparent transparent;
+    -fx-padding: 5 12 5 12;
+}
+.status-bar .label {
+    -fx-text-fill: #334155;
+}
+
+/* вікно входу */
+.login-root {
+    -fx-background-color: white;
+}
+.login-header {
+    -fx-background-color: linear-gradient(to right, #1f3b63, #2b6cb0);
+    -fx-padding: 22 28 18 28;
+}
+.login-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+.login-subtitle {
+    -fx-text-fill: #d6e4f5;
+}
+
+/* діалоги */
+.dialog-pane > .header-panel {
+    -fx-background-color: #e8eef6;
+}
+.dialog-pane > .header-panel .label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3b63;
+}
